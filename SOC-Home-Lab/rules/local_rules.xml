@@ -1,0 +1,10 @@
+
+<rule id="100100" level="12" frequency="7" timeframe="60">
+  <if_matched_sid>5760</if_matched_sid>
+  <same_srcip />
+  <description>Possible SSH brute-force activity: repeated authentication failures from the same source IP within 60 seconds.</description>
+  <mitre>
+    <id>T1110</id>
+  </mitre>
+  <group>authentication_failed,brute_force,</group>
+</rule>

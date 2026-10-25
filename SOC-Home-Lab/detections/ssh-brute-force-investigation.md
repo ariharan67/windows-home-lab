@@ -16,7 +16,6 @@ ________________________________________________________________________________
 | Alert description             | Possible SSH brute-force activity: repeated authentication failures from the same source|
 |                                 IP within 60 seconds                                                                    |
 | Dashboard result              | Two custom alerts observed                                                              |
-|_______________________________|_________________________________________________________________________________________|
 
 
 ## Root Cause of Initial Failure

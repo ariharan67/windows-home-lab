@@ -18,7 +18,7 @@ The custom rule uses the built-in SSH authentication-failure rule as its parent.
 | Timeframe             | 60 seconds             |
 | Source correlation    | Same source IP         |
 | MITRE ATT&CK          | T1110 — Brute Force    |
-|-----------------------|------------------------|
+
 
 ## Investigation Findings
 

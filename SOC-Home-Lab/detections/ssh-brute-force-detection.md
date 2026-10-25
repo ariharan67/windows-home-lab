@@ -8,17 +8,17 @@ Create and validate a custom Wazuh correlation rule to detect repeated SSH authe
 
 The custom rule uses the built-in SSH authentication-failure rule as its parent. It correlates matching events by source IP and generates a level 12 alert when the configured frequency threshold is reached.
 
-________________________________________________
-| Parameter             | Value                |
-|_______________________|______________________|
-| Custom rule ID        | 100100               |
-| Parent rule ID        | 5760                 |
-| Alert level           | 12                   |
-| Frequency             | 7                    |
-| Timeframe             | 60 seconds           |
-| Source correlation    | Same source IP       |
-| MITRE ATT&CK          | T1110 — Brute Force  |
-|_______________________|______________________|
+_________________________________________________
+| Parameter             | Value                  |
+|_______________________________________________ |
+| Custom rule ID        | 100100                 |
+| Parent rule ID        | 5760                   |
+| Alert level           | 12                     |
+| Frequency             | 7                      |
+| Timeframe             | 60 seconds             |
+| Source correlation    | Same source IP         |
+| MITRE ATT&CK          | T1110 — Brute Force    |
+|_______________________________________________ |
 
 ## Investigation Findings
 
